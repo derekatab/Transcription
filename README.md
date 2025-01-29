@@ -26,21 +26,15 @@ Make sure you have the following installed on your system:
    npm install
    ```
 
-4. **Run the development server:**
+4. **Add API key:**
+   Create a `.env` file in the root directory and add your OpenAI API key:
+   ```sh
+   OPENAI_API_KEY=your_api_key_here
+   ```
+
+5. **Run the development server:**
    ```sh
    npm run dev
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
-
-## Features
-- Upload an audio file (WAV, MP3, MP4)
-- Automatically transcribe audio to text
-- Display the transcript in the UI
-
-## Contributing
-Feel free to submit issues or pull requests if you'd like to contribute!
-
-## License
-This project is open-source. See the [LICENSE](LICENSE) file for details.
-
+6. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
